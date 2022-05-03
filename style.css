@@ -183,52 +183,54 @@ progress{
     margin-left: 25%;
   }
 
-  /* efeito agua */
-
 
 
   /* ---------------PORTFOLIO------------------ */
   #portfolio{
     background-color: #d7d9db;
-    margin-top: 5%;
-    height: 700px;
-  
-  }
-
-  .quadrado-port{
-    height: 250px;
-    width: 400px;
-    opacity: 0.7;
-   
-    margin-left: 9%;
-    margin-top: 8%;
-    margin-bottom: 5%;
-   
-  
+    margin-top: 2%;
+    height: 800px;
   }
 
   .escopo-circulo{
-    margin-left: 10%;
+    margin-left: 45%;
     min-width: auto;
-    padding-top: 2%;
+    padding-top: 1%;
+    width: 30%;
+   
   }
 
   .circulo {
-    width: 50px;
-    height: 50px;
+    width: 55px;
+    height: 55px;
     border-radius: 50%;
-    overflow: hidden;
-    margin: 5%;
-    transition: 0.3s ease;
+    margin-top: 12%;
+    transition: 0.6s ease;
     background-color: #0c3b76;
     display: block;
-    margin-left: 15%;
-    text-align: center;
-    color: #fff;
+    
   }
   
   .circulo:hover{
+    /* transform: rotateX(180deg); */
+    /* transform: scaleX(-1); */
     transform: rotateY(180deg);
+    /* filter: ; */
+  }
+
+  .escopo-texto{
+    margin-left: 50%;
+    min-width: auto;
+    width: 60%;
+    display: inline-block;
+    color: #042774;
+    text-align: justify;
+    padding-left: 60%;
+  }
+
+  #portfolio h3{
+    margin-left: 2%;
+    margin-top: 2%;
   }
 
   /* -------------------- PÁGINA PREÇO --------------- */
@@ -309,7 +311,7 @@ progress{
     margin-top: 45%;
     margin-right: 45%;
   }
-  
+
   .img-logo{
       height: 40px;
       width: 135px;
@@ -339,8 +341,8 @@ progress{
    background-color: #bdc9b2;
    border-radius: 10%;
    color: #042774;
-    font-size: 14px;
-    padding: -10%;
+   font-size: 14px;
+   padding: -10%;
   }
 
   .barra-navegacao li{
