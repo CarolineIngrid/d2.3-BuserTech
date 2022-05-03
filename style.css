@@ -224,6 +224,62 @@ progress{
     height: 400px;
     background-color: #d7d9db;
   }
+
+  .circulo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    float: left;
+    margin: 15px;
+    transition: 0.3s ease;
+  }
+  
+  .circulo:hover{
+    transform: rotateY(180deg);
+  }
+  
+  .circulo-pequeno {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 10px;
+    float: left;
+    animation: circulo 1s linear infinite;
+  }
+  
+  .circulo-pequeno.lime {
+    animation: circulo-inverno 1s linear infinite;
+  }
+  
+  @keyframes circulo {
+    from {
+      transform: rotate(0deg) translateX(30px);
+    } to {
+      transform: rotate(360deg) translateX(30px);
+    }
+  }
+  
+  @keyframes circulo-inverno {
+    from {
+      transform: rotate(0deg) translateX(30px);
+    } to {
+      transform: rotate(-360deg) translateX(30px);
+    }
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+  }
+  
+  .lime {
+    background: springgreen;
+  }
+  
+  .tomato {
+    background: tomato;
+  }
 /* ---------------------- FOOTER ------------------ */
   footer{
     height: 300px;
