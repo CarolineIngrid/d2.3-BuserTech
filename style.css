@@ -189,22 +189,21 @@ progress{
 
   /* ---------------PORTFOLIO------------------ */
   #portfolio{
-    background-color: rgb(0, 86, 136);
+    background-color: #d7d9db;
     margin-top: 5%;
-    height: 500px;
+    height: 800px;
   
   }
 
   .quadrado-port{
     height: 250px;
     width: 400px;
-    background-color: #acd15d;
     opacity: 0.7;
-    display: inline-block;
+   
     margin-left: 9%;
     margin-top: 8%;
     margin-bottom: 5%;
-    text-align: center;
+   
   
   }
 
@@ -225,14 +224,23 @@ progress{
     background-color: #d7d9db;
   }
 
+  .escopo-circulo{
+    margin-left: 10%;
+    min-width: auto;
+  }
+
   .circulo {
-    width: 100px;
-    height: 100px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     overflow: hidden;
-    float: left;
-    margin: 15px;
+    margin: 5%;
     transition: 0.3s ease;
+    background-color: #0c3b76;
+    display: block;
+    margin-left: 15%;
+    text-align: center;
+    color: #fff;
   }
   
   .circulo:hover{
@@ -248,10 +256,6 @@ progress{
     animation: circulo 1s linear infinite;
   }
   
-  .circulo-pequeno.lime {
-    animation: circulo-inverno 1s linear infinite;
-  }
-  
   @keyframes circulo {
     from {
       transform: rotate(0deg) translateX(30px);
@@ -260,26 +264,6 @@ progress{
     }
   }
   
-  @keyframes circulo-inverno {
-    from {
-      transform: rotate(0deg) translateX(30px);
-    } to {
-      transform: rotate(-360deg) translateX(30px);
-    }
-  }
-  
-  img {
-    display: block;
-    max-width: 100%;
-  }
-  
-  .lime {
-    background: springgreen;
-  }
-  
-  .tomato {
-    background: tomato;
-  }
 /* ---------------------- FOOTER ------------------ */
   footer{
     height: 300px;
