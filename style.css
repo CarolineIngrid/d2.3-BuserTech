@@ -191,7 +191,7 @@ progress{
   #portfolio{
     background-color: #d7d9db;
     margin-top: 5%;
-    height: 800px;
+    height: 700px;
   
   }
 
@@ -206,6 +206,32 @@ progress{
    
   
   }
+
+  .escopo-circulo{
+    margin-left: 10%;
+    min-width: auto;
+    padding-top: 2%;
+  }
+
+  .circulo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 5%;
+    transition: 0.3s ease;
+    background-color: #0c3b76;
+    display: block;
+    margin-left: 15%;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .circulo:hover{
+    transform: rotateY(180deg);
+  }
+
+  /* -------------------- PÁGINA PREÇO --------------- */
 
   #preco{
     background-color: #acd15d;
@@ -222,46 +248,6 @@ progress{
     width: 300px;
     height: 400px;
     background-color: #d7d9db;
-  }
-
-  .escopo-circulo{
-    margin-left: 10%;
-    min-width: auto;
-  }
-
-  .circulo {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    overflow: hidden;
-    margin: 5%;
-    transition: 0.3s ease;
-    background-color: #0c3b76;
-    display: block;
-    margin-left: 15%;
-    text-align: center;
-    color: #fff;
-  }
-  
-  .circulo:hover{
-    transform: rotateY(180deg);
-  }
-  
-  .circulo-pequeno {
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    margin: 10px;
-    float: left;
-    animation: circulo 1s linear infinite;
-  }
-  
-  @keyframes circulo {
-    from {
-      transform: rotate(0deg) translateX(30px);
-    } to {
-      transform: rotate(360deg) translateX(30px);
-    }
   }
   
 /* ---------------------- FOOTER ------------------ */
@@ -323,8 +309,7 @@ progress{
     margin-top: 45%;
     margin-right: 45%;
   }
-
-
+  
   .img-logo{
       height: 40px;
       width: 135px;
@@ -369,7 +354,6 @@ progress{
 }
 
 .info{
-  
   height: 30px;
   width: 180px;
   color: #ffff;
@@ -382,11 +366,6 @@ progress{
    height: 40%;
    margin-left: -20%;
  }
-
- /* .sobre-textos{
-   padding-right: 50%;
-   margin-left: 10%;
- } */
 
  #sobre{
   text-align: justify;
