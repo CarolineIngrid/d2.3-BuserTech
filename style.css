@@ -282,6 +282,7 @@ progress{
     margin-top: -150px;
 
   }
+
   /* ===================================Media Queries=============================== */
 
   @media screen and (max-width: 767px){
@@ -344,6 +345,26 @@ progress{
   font-size: 14px;
  
  }
+/* 
+ ----------------- SERVIÇOS ------------------ */
+
+ .servicos{
+  height: 700px;
+  color: black;
+  padding-top: 30%;
+  column-count: 2;
+
+}
+
+.quadrado-servicos{
+  width: 150px;
+  height: 150px;
+  margin-bottom: 30px;
+  text-align: center;
+  margin-left: 12%;
+}
+
+
 
  #sobre img{
    width: 50%;
