@@ -50,24 +50,23 @@ body {
 
 .container{
   margin-left: 2%;
-  line-height: 36px;
-  padding-right: 65%;
-}
-
-.foto{
-  margin-left: 35%;
-  text-align: center;
-  height: 600px;
-  width: 600px;
- margin-top: -291px;
-
+  line-height: 35px;
+  width: 40%;
+  display: inline-block ;
 }
 
 .foto img{
   width: 800px;
   height: 800px;
-  margin-bottom: 30%;
+  margin-left: 40%;
+  margin-top: -6.9%;
 
+}
+
+.foto{
+  display: inline;
+  width: 800px;
+  height: 800px;
 }
 
 /* --------BOTÃO---------- */
@@ -95,47 +94,46 @@ body {
   #sobre{
     background-color: #d7d9db;
     height: 800px;
-    width: 90%;
+    width: 100%;
     line-height: 20px;
-    padding-left: 10%;
     margin-bottom: 30px;
     display: block;
   
   }
 
   #sobre h2{
-    text-align: left;
+    padding-right: 10%;
+    font-weight: bolder;
+    letter-spacing: 6px;
+    margin-left: 8%;
+
   }
 
   .sobre-textos{
     display: inline;
+   
   }
 
   #sobre p{
     padding-left: 100px;
     margin-right: 8%;
-    margin-left: 15%;
+    margin-left: 20%;
     padding-top: 4%;
+    padding-right: 10%;
     
   }
 
   #sobre > img {
     width: 350px;
     height: 350px;
-    margin-left: -8%;
+    margin-left: 4%;
     margin-top: 3%;
-  }
-
-  .sobre-textos h2{
-    font-weight: bolder;
-    letter-spacing: 6px;
-
   }
 
   .progresso{
     margin-top: 10%;
     margin-right: 10%;
-    margin-left: 25%;
+    margin-left: 30%;
   }
 
 progress{
