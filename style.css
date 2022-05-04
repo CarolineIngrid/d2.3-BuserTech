@@ -304,16 +304,6 @@ progress{
     margin-right: 45%;
   }
 
-  .img-logo{
-      height: 40px;
-      width: 135px;
-      background: url("imagens/spotify.svg") no-repeat;
-      display: block;
-      background-size: contain;
-      color: transparent;
-      margin-left: 20px;
-  }
-
   .background-linear {
     width: 100%;
     margin-bottom: 100px;
@@ -383,12 +373,16 @@ progress{
   height: 600px;
 }
 
+#portfolio h3{
+  font-size: 18px;
+  padding-top: 8%;
+  text-align: center;
+}
+
 .escopo-circulo{
   margin-top: 15%;
-  margin-left: 38%;
+  margin-left: 34%;
   min-width: auto;
-
- 
 }
 
 .circulo {
